@@ -10,6 +10,8 @@ class Composite(object):
         self._type = type
         self._nodes = []
 
+
+        
     def addSystemComponent(self, component):
         self.__fileSystemcomponents.append(component)
 
